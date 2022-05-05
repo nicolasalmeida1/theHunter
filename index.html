@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site The Hunter</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body class = "body">
+    <div>
+        <header class="header__body">
+            <div>
+                <img id="header-image" src="assets/images/Logo.png"/>
+                <h1>Caçadores</h1>
+            </div>
+        </header>
+        <main class="container container-local">
+            <div class="row">
+                <h1>Ranking oficial The Hunter Dibraloiros</h1>
+                <p>Depois de um bom tempo jogando The Hunter, os Dibraloiros decidiram criar uma competição entre si, de quem conseguia matar o animal com a maior distância do tiro, a competição perdurou por semanas, onde esses nobres caçadores desbravaram os mapas do jogo em busca de seu principal objetivo, matar de mais longe possível (de preferência um tiro no suvaquinho)</p>
+                <p>Apresento à vocês o ranking dos melhores registros até então!</p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-striped table-hover table-dark table-local">
+                        <thead>
+                            <tr>
+                                <th>Caçador</th>
+                                <th>Animal</th>
+                                <th>Distância (m)</th>
+                                <th>Data</tr>
+                            </tr>
+                        </thead>
+                        <tbody class="tbody-local">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row form-local">
+                <h2>Envie seu record!!</h2>
+                <div class="col">
+                    <label for="txtName">Nome</label>
+                    <input type="text" id="txtName" class="form-control" placeholder="Digite seu Nick" required>
+                </div>
+                <div class="col">
+                    <label for="txtAnimal">Animal</label>
+                    <input type="text" id="txtAnimal" class="form-control" placeholder="Nome do animal" required>
+                </div>
+                <div class="col">
+                    <label for="txtDistance">Distância (m)</label>
+                    <input type="text" id="txtDistance" class="form-control" placeholder="Distância">
+                </div>
+                <div class="col">
+                    <label for="txtDate">Data</label>
+                    <input type="date" id="txtDate" class="form-control"/>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary btn-local">Enviar</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+    
+        </footer>
+        <script type="module" src="assets/js/thehunter.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@import 'reset.css';
+
+.header__body{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(58, 57, 57);
+}
+.header__body > div{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 16% 0 15%;
+}
+
+.header__body h1{
+    padding-top: 40px;
+    color: aliceblue;
+    font-family: Big stem;
+    font-size: 2em;
+}
+
+.header__body img{
+    width: 240px;
+    height: 100%;
+}
+
+.container-local{
+    background-color: #0e0e0e;
+}
+
+.container-local h1, h2{
+    color:#ff9900;
+}
+.container-local p, label{
+    color:#e1e1e1;
+}
+.form-local{
+    position: relative;
+    padding-bottom: 5px;
+}
+.btn-local{
+    position: absolute;
+    bottom: 5px;
+}
+
+.table-local{
+    padding-left: 10px;
+}
+
+
+
+body{
+    background-size: cover;
+    background-image: url('../images/background.webp');
+    height: 100vh;
+}
+.body{
+    background-color: white;
+}
+
